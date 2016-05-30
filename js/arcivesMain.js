@@ -1,7 +1,5 @@
-var txt;
-$.get('data/1.MarkDown',function(result){
+$.get('data/1.Markdown',function(result){
     $("#div_preload").hide();
-    txt=result;
     $("xmp").text(result);
         
     /**
